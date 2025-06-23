@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+import 'package:chat_app/chat_page.dart';
+import 'package:chat_app/login_page.dart';
+>>>>>>> Stashed changes
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,6 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< Updated upstream
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -25,6 +31,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
+=======
+      title:'Chat App',
+      theme:ThemeData(primarySwatch: Colors.yellow),
+      home: ChatPage()
+>>>>>>> Stashed changes
     );
   }
 }
